@@ -48,7 +48,7 @@ Decrypt the message and display it
 Save the private key to clave_privada.pem
 ---------------------------------------------------
 DECRYPTION: 
-gcc rsadesci.c -o rsa_descifrado -lcrypto
+gcc rsadesci.c -o rsa_dec -lcrypto
 
 ./rsa_descifrado clave_privada.pem [hex_encrypted_message]
 
